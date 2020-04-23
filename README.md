@@ -2,7 +2,7 @@
 
 This is my second project in the Udacity Nanodegree program [Self-Driving Car Engineer](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013)!
 
-The code is in [Project.ipynb](https://github.com/dingchen-github/AdvancedLaneLines/blob/master/Project.ipynb) and the implementation explanation is in [writeup.md](https://github.com/dingchen-github/AdvancedLaneLines/blob/master/writeup_template.md).
+The code is in [Project.ipynb](https://github.com/dingchen-github/AdvancedLaneLines/blob/master/Project.ipynb) and the implementation explanation is in [writeup.md](https://github.com/dingchen-github/AdvancedLaneLines/blob/master/writeup.md).
 
 
 The Project
