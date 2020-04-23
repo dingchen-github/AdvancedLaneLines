@@ -22,6 +22,7 @@ The goals of this project are the following:
 The `project_video.mp4` video is the one that this project should work well on.  
 The `challenge_video.mp4` video is an extra (and optional) challenge to test the pipeline under somewhat trickier conditions.
 The `harder_challenge_video.mp4` video is another optional challenge and is brutal!
+
 The outputs are called `project_output.mp4`, `challenge_output.mp4` and `harder_challenge_output.mp4`. Check them out!
 
 ## `%matplotlib qt`
