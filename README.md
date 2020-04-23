@@ -4,22 +4,11 @@ This is my second project in the Udacity Nanodegree program [Self-Driving Car En
 
 The code is in [Project.ipynb](https://github.com/dingchen-github/AdvancedLaneLines/blob/master/Project.ipynb) and the implementation explanation is in [writeup.md](https://github.com/dingchen-github/AdvancedLaneLines/blob/master/writeup_template.md).
 
-## `%matplotlib qt`
-
-I could not use pyqt5 ("Failed to import any qt binding"), although I have installed it. After searching online for more than one hour and trying numerous methods, including updating *matplotlib*, it still didn't work. Finally [here](https://stackoverflow.com/questions/41046299/pop-up-plots-using-python-jupyter-notebook), I got the solution - just use `%matplotlib tk`, then I can display images in a new pop-up window!
-
-Creating a great writeup:
----
-A great writeup should include the rubric points as well as your description of how you addressed each point.  You should include a detailed description of the code used in each step (with line-number references and code snippets where necessary), and links to other supporting documents or external references.  You should include images in your writeup to demonstrate how your code works with examples.  
-
-All that said, please be concise!  We're not looking for you to write a book here, just a brief description of how you passed each rubric point, and references to the relevant code :).
-
-You're not required to use markdown for your writeup.  If you use another method please just submit a pdf of your writeup.
 
 The Project
 ---
 
-The goals / steps of this project are the following:
+The goals of this project are the following:
 
 * Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
 * Apply a distortion correction to raw images.
@@ -30,10 +19,11 @@ The goals / steps of this project are the following:
 * Warp the detected lane boundaries back onto the original image.
 * Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
 
-The images for camera calibration are stored in the folder called `camera_cal`.  The images in `test_images` are for testing your pipeline on single frames.  If you want to extract more test images from the videos, you can simply use an image writing method like `cv2.imwrite()`, i.e., you can read the video in frame by frame as usual, and for frames you want to save for later you can write to an image file.  
+The `project_video.mp4` video is the one that this project should work well on.  
+The `challenge_video.mp4` video is an extra (and optional) challenge to test the pipeline under somewhat trickier conditions.
+The `harder_challenge_video.mp4` video is another optional challenge and is brutal!
+The outputs are called `project_output.mp4`, `challenge_output.mp4` and `harder_challenge_output.mp4`. Check them out!
 
-To help the reviewer examine your work, please save examples of the output from each stage of your pipeline in the folder called `output_images`, and include a description in your writeup for the project of what each image shows.    The video called `project_video.mp4` is the video your pipeline should work well on.  
+## `%matplotlib qt`
 
-The `challenge_video.mp4` video is an extra (and optional) challenge for you if you want to test your pipeline under somewhat trickier conditions.  The `harder_challenge.mp4` video is another optional challenge and is brutal!
-
-If you're feeling ambitious (again, totally optional though), don't stop there!  We encourage you to go out and take video of your own, calibrate your camera and show us how you would implement this project from scratch!
+Udacity example code has always used `%matplotlib qt`, but I could not use pyqt5 ("Failed to import any qt binding"), although I have installed it. After searching online for more than one hour and trying numerous methods, including updating *matplotlib*, it still didn't work. Finally [here](https://stackoverflow.com/questions/41046299/pop-up-plots-using-python-jupyter-notebook), I got the solution - just use `%matplotlib tk`, then I can display images in a new pop-up window!
